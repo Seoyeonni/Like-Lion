@@ -1,0 +1,85 @@
+/* 나만의 이력서 최종 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+body,h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-width: fit-content;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #282828;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+}
+
+.mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    width: 200;
+    padding-right: 15px;
+    border-right: 1px solid #ebebeb;
+}
+
+.right {
+    width: 400;
+    padding-left: 10px;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+.content {
+    font-size: 10px;
+    Line-height: 16px;
+}
+
+.intro {
+    font-size: 17px;
+    color: #7c7c7c;
+    font-weight: bold; 
+}
+
+.sns-img {
+    width: 12px;
+    height: 12px;
+}
+
+.sns-wrap {
+    text-align: right;
+}
+
+.kakao-img {
+    width: 14px;
+    height: 14px;
+    margin-left: 400px;
+    margin-top: 12px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    font-size: 12px;
+    color: #919191;
+}
